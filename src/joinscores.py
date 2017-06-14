@@ -1,3 +1,11 @@
+'''
+Joining the results from Perspective and comment id.
+
+
+@Saleem
+June 6, 2017
+'''
+
 target = 'fatpeoplehate'
 
 with open('scores_test_'+target+'.txt', 'r') as fin:

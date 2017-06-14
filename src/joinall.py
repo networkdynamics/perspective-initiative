@@ -11,7 +11,7 @@ import sys
 import os
 
 #DATA SETTINGS
-data_path = '/home/ndg/users/hsalee/perspective-initative/data/classifier/'
+data_path = '/home/ndg/users/hsalee/perspective-initiative/data/classifier/'
 target = sys.argv[1]
 
 class_file = os.path.join(data_path, 'classifier_'+target+'.txt')
@@ -64,5 +64,7 @@ for item in final_score:
             bin_6.append(item[0])
         else:
             bin_5.append(item[0])
-        
-print len(bin_1), len(bin_2), len(bin_3), len(bin_4), len(bin_5), len(bin_6)
+
+
+for item in bin_6:
+    print item
