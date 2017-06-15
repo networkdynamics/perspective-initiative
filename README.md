@@ -16,3 +16,10 @@ In our previous work, we developed a community-based classification system that 
 
 [PDF](docs/Report.pdf)
 
+## Follow-up Work
+
+- [ ] Get the median score of Perspective results.
+- [ ] Run the Perspective API on three support subreddits.
+- [ ] Run the Perspective API on three random subreddits.
+- [ ] Run the classifiers on Perspective Data.
+- [ ] Generate ROC curves from classifier results.
